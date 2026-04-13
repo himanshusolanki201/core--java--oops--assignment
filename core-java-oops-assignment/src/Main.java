@@ -7,7 +7,7 @@ public class Main {
         double[] studentMarks = { 85.5, 90.0, 78.5, 92.0, 88.0 };
 
         // US-01: Create a Student object
-        Student student1 = new Student(101, "Alice Smith", studentMarks);
+        Student student1 = new Student(101, "himanshu", studentMarks);
         student1.displayDetails();
 
         // US-02: String formatting
@@ -20,13 +20,13 @@ public class Main {
         System.out.println("\n========== INHERITANCE SYSTEM ==========");
         // US-08: Distinguish between general and college students
         double[] collegeMarks = { 95.0, 89.5, 91.0, 88.5, 94.0 };
-        CollegeStudent cStudent = new CollegeStudent(201, "Bob Jones", collegeMarks, "B.Sc Computer Science");
+        CollegeStudent cStudent = new CollegeStudent(201, "harsh", collegeMarks, "B.Sc Computer Science");
         cStudent.displayDetails(); // Displays parent + child properties
 
         System.out.println("\n========== EMPLOYEE SYSTEM ==========");
         // US-05 & US-06: Employee initialization and static shared data
-        Employee emp1 = new Employee(1, "John Doe", 55000);
-        Employee emp2 = new Employee(2, "Jane Roe", 60000);
+        Employee emp1 = new Employee(1, "himmu", 550000);
+        Employee emp2 = new Employee(2, "himanshu", 1000000);
         emp1.displayEmployee();
         emp2.displayEmployee(); // Notice company name is shared
 
