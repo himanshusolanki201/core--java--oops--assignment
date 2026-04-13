@@ -5,7 +5,7 @@ public class Employee {
     double salary;
 
     // US-06: Shared company name using static variable
-    static String companyName = "Tech Academy";
+    static String companyName = "Hkskill";
 
     // US-05: Initialize employee details using constructor
     public Employee(int empId, String empName, double salary) {
